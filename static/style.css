@@ -152,7 +152,7 @@ a{
     transform: translateX(-800px);
   }
   to{
-    transform: translateX(0px);
+    transform: translateX(-30px);
   }
 }
 
