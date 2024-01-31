@@ -139,7 +139,7 @@ a{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-left: 80px;
+  padding-left: 100px;
   padding-right: 100px;
 }
 
@@ -1030,6 +1030,14 @@ textarea{
     }
     to{
       width:196px;
+    }
+  }
+  @keyframes anim3{
+    from{
+      transform: translateX(-800px);
+    }
+    to{
+      transform: translateX(-30px);
     }
   }
 }
